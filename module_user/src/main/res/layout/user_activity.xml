@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:background="#0f0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_centerInParent="true"
+        android:text="这里是用户"
+        android:textColor="#f00"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/usr_bean"
+        android:layout_below="@+id/back_home"
+        android:textColor="#f00"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/click_eventbus"
+        android:layout_below="@+id/usr_bean"
+        android:textColor="#f00"
+        android:text="发送信息"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/show_info"
+        android:layout_below="@+id/click_eventbus"
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/click_eventbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@+id/click_eventbus"
+        android:text="收到消息： "
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:id="@+id/back_home"
+        android:text="用户要回家"
+        android:textColor="#f00"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

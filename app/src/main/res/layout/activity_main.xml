@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/layout_ded"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/home"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="home"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="519dp" />
+
+        <Button
+            android:id="@+id/content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="content"
+            tools:layout_editor_absoluteX="125dp"
+            tools:layout_editor_absoluteY="519dp" />
+
+        <Button
+            android:id="@+id/user"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="user"
+            tools:layout_editor_absoluteX="253dp"
+            tools:layout_editor_absoluteY="519dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
